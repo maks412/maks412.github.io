@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CV 1</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./dist/style.css">
+
+</head>
+
+<body>
+    <!DOCTYPE HTML>
+    <html>
+
+    <head>
+        <meta charset="utf-8">
+        <title> Image Filtering CV Assignment</title>
+    </head>
+    <script src=https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js>
+    </script>
+
+    <body>
+
+        <h1> Image Filter </h1>
+
+
+        <div class="Box">
+            <ol>
+                <li>Load an Image</li>
+                <li>Click the filter you would like to apply</li>
+                <li>Once a filter is applied, you can either reset the image, or apply a new image</li>
+                <li>Use snipping tool to save the image</li>
+            </ol>
+            <hr>
+            <div id="load">
+                <canvas id="foreground"> </canvas>
+                <br> </br>
+                <div>
+                    <h2>Load Image:</h2>
+                    <!-- <input type="file" multiple="false" accept="image/*" id="fgfile" onchange="upload()"> -->
+                    <input type="file" multiple="false" onchange="upload()" id="fgfile" class="form-control border-0">
+                    <br></br>
+                    <h2>Choose Filter: </h2>
+
+                    <input type="button" value="GrayScale" onclick="grayscale()">
+                    <input type="button" value="Red" onclick="red()">
+                    <!-- <input type="button" value="Rainbow" onclick="rainbow()"> Border color : <input type="color" value="#FF0000" id="clr" onclick="doColor()"> -->
+                    <input type="button" value="Add Border" onclick="border()">
+                    <input type="button" value="Blur Image" onclick="toblur()">
+                    <br>
+                    <br>
+                    <input type="button" value="Reset Image" onclick="reset()">
+                </div>
+            </div>
+        </div>
+    </body>
+
+    </html>
+    <script src="./dist/script.js"></script>
+
+</body>
+
+</html>

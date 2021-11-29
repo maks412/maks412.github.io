@@ -1,0 +1,59 @@
+    body {}
+    
+    p {
+        font-size: 20px;
+    }
+    
+    h1 {
+        color: skyblue;
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border-style: solid;
+        border-radius: 3px;
+        border: 1px solid black;
+    }
+    
+    .first {
+        color: red;
+        background-color: orange;
+    }
+    
+    input {
+        font-size: 20px;
+    }
+    
+    .second {
+        color: green;
+        background-color: fuchsia;
+    }
+    
+    .lime {
+        background-color: lime;
+    }
+    
+    .yellow {
+        background-color: yellow;
+    }
+    
+    canvas {
+        width: 500px;
+        height: 300px;
+        border: 1px solid #000000;
+    }
+    
+    .Box {
+        background-color: rgb(196, 241, 242);
+        border: solid;
+        border-width: 3px;
+        border-color: rgb(181, 103, 103);
+        margin: 0px 20px 15px 20px;
+        padding: 0px 15px 15px 15px;
+        border-radius: 20px;
+        font-family: Verdana, Geneva, sans-serif;
+    }
+    
+    #load {
+        display: flex;
+        justify-content: space-evenly;
+    }
